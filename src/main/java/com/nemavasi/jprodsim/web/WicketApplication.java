@@ -1,4 +1,4 @@
-package com.nemavasi;
+package com.nemavasi.jprodsim.web;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
