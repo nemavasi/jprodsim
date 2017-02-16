@@ -1,4 +1,4 @@
-package com.nemavasi;
+package com.nemavasi.jprodsim.web;
 
 import java.lang.management.ManagementFactory;
 
@@ -19,6 +19,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
  * Separate startup class for people that want to run the examples directly. Use parameter
  * -Dcom.sun.management.jmxremote to startup JMX (and e.g. connect with jconsole).
  */
+
 public class Start
 {
 	/**
