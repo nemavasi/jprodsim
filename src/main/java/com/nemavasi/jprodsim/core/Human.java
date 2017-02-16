@@ -5,9 +5,9 @@ package com.nemavasi.jprodsim.core;
  */
 public class Human extends IdObject {
 
-    String firstName;
-    String middleName;
-    String secondName;
+    private String firstName;
+    private String middleName;
+    private String secondName;
 
     public String getFirstName() {
         return firstName;
@@ -33,7 +33,7 @@ public class Human extends IdObject {
         this.secondName = secondName;
     }
 
-    public String getFullName(){
+    public String getFullName() {
         return firstName + " " + middleName + " " + secondName;
     }
 }
